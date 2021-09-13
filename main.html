@@ -34,9 +34,9 @@
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>ようちえんのころのへや</h2>
-            <p class="text-center">まずは、この学校の家庭科室の鍵のありかを知らなければ入ることができない。<br>
-              下の画像の謎を解き、鍵のありかをキーワード欄に入力しよう。</p>
-            <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
+            <p class="text-center">”まずは、この学校の家庭科室の鍵のありかを知らなければ入ることができない。”<br>
+              ”下の画像の謎を解き、鍵のありかをキーワード欄に入力しよう。”</p>
+            <p class="text-center">”困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。”</p>
   
             <div class="container">
               <figure class="image__container">
@@ -87,7 +87,7 @@ Youtube貼り付けここまで -->
               <div class="clear-message__title">ようちえんへん  クリア！</div>
               <div class="clear-message__content">部屋の扉が開いたみたい・・・<br>
                 <br>
-                ３つステージの謎をとき、暗号を見つけ出そう！</div>
+                ”３つステージの謎をとき、暗号を見つけ出そう！”</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">つぎのへやへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -108,13 +108,13 @@ Youtube貼り付けここまで -->
             <div class="container">
               <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>小学校のころの部屋</h2>
               <p class="text-center">扉をくぐるとそこは、小学生の頃のあなたの部屋だった。<br>
-                すぐに目に入ったのは黒板にある４つの謎。<br>
-                これらを解くことで、きっと次のステップに繋がるはずだ！</p>
+                ”すぐに目に入ったのは黒板にある４つの謎。”<br>
+                ”これらを解くことで、きっと次のステップに繋がるはずだ！”</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
             <div class="container">
-              <h2 class="section-title"><span class="section-title__stage">STAGE：2</span>キーワードを入力</h2>
+              <h2 class="section-title"><span class="section-title__stage">STAGE：2</span>答えを入れてね</h2>
               <!-------------------------------------------------------------
                 class名"row"内のclass名"column"が横並びになります。
                 改行する場合は以下のように追加してください。
@@ -181,8 +181,8 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">小学生へん　クリア！</div>
-              <div class="clear-message__content">黒板の指示に従い、<br>
-                次のステージの謎を解こう！</div>
+              <div class="clear-message__content">”黒板の指示に従い、”<br>
+                ”次のステージの謎を解こう！”</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次の部屋へ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -198,9 +198,9 @@ Youtube貼り付けここまで -->
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>中学校の頃の部屋</h2>
-            <p class="text-center">黒板から得たメッセージは、「食物の廃棄問題」だった。<br>
-              どうやら、廃棄にかかる費用がかかりすぎて小学校の運営が厳しくなったようだ。。<br>
-              これらを解決するための最後の謎を解いていこう！</p>
+            <p class="text-center">”黒板から得たメッセージは、「食物の廃棄問題」だった。”<br>
+              ”どうやら、廃棄にかかる費用がかかりすぎて小学校の運営が厳しくなったようだ。”<br>
+              ”これらを解決するための最後の謎を解いていこう！”</p>
             <figure class="image__container">
               <img src="画像軍/設問3サンプル.png" alt="設問3">
             </figure>
@@ -211,7 +211,7 @@ Youtube貼り付けここまで -->
         <!-- STAGE3-1解答入力セクションここから -->
         <section class="section bg-color--keycolor">
           <div class="container">
-            <h2 class="section-title"><span class="section-title__stage">STAGE：3</span>キーワードを入力</h2>
+            <h2 class="section-title"><span class="section-title__stage">STAGE：3</span>答えを入れてね</h2>
             <!-----------------------------------------------------------------------------------------------------------------
               解答入力欄のコンポーネントです。
               v-on:answer-input="answerInput($event, 'stage3', 1, 'final')" は送信ボタンをクリックした時の動作を決める関数です。

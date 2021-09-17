@@ -275,7 +275,7 @@ button {
   line-height: 1.75;
   text-align: center;
   padding: 9px 20px;
-  background-color: #ffb6c1;
+  background-color: #ee82ee;
   margin: 0 -20px 20px -20px;
 }
 
@@ -308,7 +308,7 @@ button {
   line-height: 1.06667;
   margin: 0;
   padding-bottom: 15px;
-  color: #006837;
+  color: #dc143c;
 }
 
 .section-title--border::after {
